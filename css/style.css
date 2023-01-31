@@ -25,11 +25,16 @@ span {
     color: aqua;
 }
 
-.history__text {
+.history__text,
+.history__paragraf {
     color: blueviolet;
 }
 .history__text > p {
     color: chartreuse;
+}
+
+div ~ p {
+    color: bisque;
 }
 
 #id1 {
